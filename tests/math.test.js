@@ -2,7 +2,7 @@ const { add, subtract, multiply } = require('../src/math');
 
 describe('Модульні тести математичних функцій', () => {
   test('Додавання чисел', () => {
-    expect(add(2, 3)).toBe(5);
+    expect(add(2, 3)).toBe(999);
     expect(add(-1, 1)).toBe(0);
   });
 
